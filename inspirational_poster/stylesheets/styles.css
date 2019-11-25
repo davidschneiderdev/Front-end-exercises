@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.picture-frame {
+    height: 700px;
+    width: 700px;
+}
+
+.picture-frame > img {
+    height: 100%;
+}
+
+.poster {
+    position: relative;
+    height: 700px;
+}
+
+.part1, .part2 {
+    position: absolute;
+    color: #eeeeee;
+}
+
+.part2 {
+    bottom: 5px;
+}
+
