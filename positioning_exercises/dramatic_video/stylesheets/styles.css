@@ -1,0 +1,30 @@
+
+body {
+    background-color: slategray;
+}
+
+.container {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    margin: 50px 0 0 100px;
+    /* outline: 3px solid red; */
+}
+
+.video-frame {
+    width: 800px;
+    height: 450px;
+}
+
+.video-frame > video {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}

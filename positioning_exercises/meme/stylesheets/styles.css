@@ -1,0 +1,28 @@
+
+.picture-frame {
+    height: 500px;
+    width: 500px;
+}
+
+.picture-frame > img {
+    height: 100%;
+}
+
+.poster {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    outline: 1px solid red;
+}
+
+.part1, .part2 {
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    margin: 0;
+}
+
+.part2 {
+    bottom: 10px;
+}
+

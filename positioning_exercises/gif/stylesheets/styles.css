@@ -1,0 +1,14 @@
+
+.poster {
+    width: 500px;
+    height: 211px;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+}
+
