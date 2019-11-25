@@ -67,21 +67,6 @@ html {
     text-decoration: none;
 }
 
-.captionbox {
-    padding: 10px;
-    height: auto;
-    border-bottom: 1px solid lightgray;
-}
-
-.commentbox > * {
-    display: inline-block;
-}
-
-.captionbox .username {
-    font-weight: bold;
-    display: inline;
-}
-
 .commentbox {
     height: auto;
 }
@@ -90,9 +75,21 @@ html {
     display: inline-block;
 }
 
-.comments {
+.captionbox {
+    padding: 10px;
     height: auto;
+    border-bottom: 1px solid lightgray;
 }
+
+.captionbox .username {
+    font-weight: bold;
+    display: inline;
+}
+
+.commentbox > * {
+    display: inline-block;
+}
+
 
 .navwrapper {
     width: 250px;
