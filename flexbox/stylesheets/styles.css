@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border-width: 5px;
+    border-style: solid;
+}
+
+.parent {
+    border-color: #ff8800;
+}
+
+.child {
+    border-color: #ffee00;
+    height: 150px;
+    width: 150px;
+}
