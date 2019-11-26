@@ -9,6 +9,8 @@ div {
 
 .parent {
     border-color: #ff8800;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .child {
