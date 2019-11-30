@@ -16,9 +16,17 @@
 
 # What are flex items (or children)?
 
-
+- The direct children of a flex parent
 
 # What is the main axis?
 
+- The direction that the flex orientation of the children is assigned (row or column)
+
 # What is the cross axis?
+
+- 
+
+
+
+
 

@@ -2,19 +2,43 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 div {
     border-width: 5px;
     border-style: solid;
 }
 
 .parent {
+    height: 100%;
+    width: 100%;
     border-color: #ff8800;
     display: flex;
-    justify-content: flex-end;
+
+    /* How to line up */
+    flex-direction: row;
+    
+    /* where to line up */
+    justify-content: center;
+    align-items: top;
 }
 
 .child {
     border-color: #ffee00;
     height: 150px;
     width: 150px;
+}
+
+.blacksheep {
+    border-color: black;
+    order: 10;
+
+}
+
+.copycat {
+    border-color: blue;
+    order: 11;
 }
